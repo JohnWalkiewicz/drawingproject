@@ -163,3 +163,45 @@ canvas.moveTo(235,260);
 canvas.lineTo(295,260);
 canvas.lineTo(263,210);
 canvas.fill();
+
+
+//tree base 3
+canvas.beginPath();
+canvas.fillStyle = "brown";
+canvas.fillRect(450,240,25,220);
+
+//tree leaves  3
+canvas.beginPath();
+canvas.fillStyle = "darkgreen";
+canvas.moveTo(400,450);
+canvas.lineTo(530,450);
+canvas.lineTo(463,400);
+canvas.fill();
+
+canvas.beginPath();
+canvas.fillStyle = "darkgreen";
+canvas.moveTo(407,420);
+canvas.lineTo(523,420);
+canvas.lineTo(463,370);
+canvas.fill();
+
+canvas.beginPath();
+canvas.fillStyle = "darkgreen";
+canvas.moveTo(414,380);
+canvas.lineTo(516,380);
+canvas.lineTo(463,330);
+canvas.fill();
+
+canvas.beginPath();
+canvas.fillStyle = "darkgreen";
+canvas.moveTo(421,340);
+canvas.lineTo(509,340);
+canvas.lineTo(463,290);
+canvas.fill();
+
+canvas.beginPath();
+canvas.fillStyle = "darkgreen";
+canvas.moveTo(428,300);
+canvas.lineTo(502,300);
+canvas.lineTo(463,250);
+canvas.fill();
