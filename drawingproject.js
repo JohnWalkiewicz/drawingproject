@@ -1,14 +1,12 @@
 var canvasDiv = document.getElementById("drawingArea");
 var canvas = canvasDiv.getContext('2d');
 
-//background
-canvas.fillStyle = "lightblue";
-canvas.fillRect(0,0,600,460);
+
 
 //ground grass
 canvas.beginPath();
 canvas.fillStyle = "green";
-canvas.fillRect(0,460,600,40);
+canvas.fillRect(0,460,670,40);
 
 
 //sun
@@ -205,3 +203,65 @@ canvas.moveTo(428,300);
 canvas.lineTo(502,300);
 canvas.lineTo(463,250);
 canvas.fill();
+
+canvas.beginPath();
+canvas.fillStyle = "darkgreen";
+canvas.moveTo(435,260);
+canvas.lineTo(495,260);
+canvas.lineTo(463,210);
+canvas.fill();
+
+//RAINDROPS
+
+canvas.beginPath();
+canvas.fillStyle = "blue";
+canvas.fillRect(10,60,10,20);
+
+canvas.beginPath();
+canvas.fillStyle = "blue";
+canvas.fillRect(100,80,10,20);
+
+canvas.beginPath();
+canvas.fillStyle = "blue";
+canvas.fillRect(190,60,10,20);
+
+canvas.beginPath();
+canvas.fillStyle = "blue";
+canvas.fillRect(280,80,10,20);
+
+canvas.beginPath();
+canvas.fillStyle = "blue";
+canvas.fillRect(360,60,10,20);
+
+canvas.beginPath();
+canvas.fillStyle = "blue";
+canvas.fillRect(450,80,10,20);
+
+canvas.beginPath();
+canvas.fillStyle = "blue";
+canvas.fillRect(530,60,10,20);
+
+//rain 2
+canvas.beginPath();
+canvas.fillStyle = "blue";
+canvas.fillRect(55,130,10,20);
+
+canvas.beginPath();
+canvas.fillStyle = "blue";
+canvas.fillRect(145,130,10,20);
+
+canvas.beginPath();
+canvas.fillStyle = "blue";
+canvas.fillRect(230,130,10,20);
+
+canvas.beginPath();
+canvas.fillStyle = "blue";
+canvas.fillRect(320,130,10,20);
+
+canvas.beginPath();
+canvas.fillStyle = "blue";
+canvas.fillRect(410,130,10,20);
+
+canvas.beginPath();
+canvas.fillStyle = "blue";
+canvas.fillRect(500,130,10,20);
